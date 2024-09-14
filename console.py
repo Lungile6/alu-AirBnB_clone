@@ -4,7 +4,7 @@ Console module for the HBNBCommand class.
 This module provides a command-line interface
 for interacting with the HBNB application.
 """
-import cmd  # Import the cmd module to create a command-line interface
+import cmd
 
 
 class HBNBCommand(cmd.Cmd):
@@ -37,7 +37,7 @@ class HBNBCommand(cmd.Cmd):
 
 
 if __name__ == "__main__":
-    HBNBCommand().cmdloop()  # Start the command loop
+    HBNBCommand().cmdloop()
 
 # #!/usr/bin/python3
 # """
