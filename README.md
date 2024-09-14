@@ -1,5 +1,3 @@
-Here’s an enhanced version of your README.md file:
-
 ```markdown
 # AirBnB Clone
 
