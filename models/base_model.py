@@ -2,9 +2,12 @@
 """
 Base Model module
 """
-import uuid
-from datetime import datetime
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 import models
+from datetime import datetime
+import uuid
 
 
 class BaseModel:
