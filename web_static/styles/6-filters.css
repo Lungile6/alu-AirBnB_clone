@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.filters :is(.amenities, .locations){
+.filters :is(.amenities, .locations) {
     height: 100%;
     width: 25%;
 }
@@ -45,6 +45,44 @@ button {
 }
 
 button:hover {
-    opacity: 90%;
+    opacity: 0.9;
     cursor: pointer;
+}
+
+.popover {
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    list-style: none;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 45px;
+    margin-left: 0;
+    visibility: hidden;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover{
+    visibility: visible;
+}
+
+.popover h2 {
+    font-size: 16px;
+    margin-left: -15px;
+    margin-bottom: -5px;
+}
+
+.popover li {
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.popover > li > ul {
+    list-style: none;
+    text-align: left;
+	padding-left: 0px;
+	margin-left: 0;
+	padding-bottom: 10px;
 }
